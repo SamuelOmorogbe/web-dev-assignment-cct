@@ -9,7 +9,8 @@ body {
 
 .main2 {
     background-color: rgba(249, 248, 244);
-    width: 450px;
+    width: 90%;
+    max-width: 450px;
     border-radius: 5%;
     height: 740px;
     margin: auto;
