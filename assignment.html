@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgba(220, 225, 219);
+        }
+        .main2{
+            background-color: rgba(249, 248, 244);
+            width: 450px;
+            border-radius: 5%;
+            height: 740px;
+            margin: auto;
+            margin-top: 50px;
+            /* box-shadow:color(black); */
+             padding-top: 100px;
+             margin-bottom: 30px;
+             box-shadow: 0 0 10px gray;
+        }
+        .git img{
+            height: 60px;
+            width: 70px;
+            padding-bottom: 20px;
+            
+        }
+        .text p{
+            font-family:Arial, Helvetica, sans-serif ;
+            font-weight: bold;
+            color: rgba(43, 48, 42);
+            text-align: center;
+            letter-spacing: 1px;
+            font-size: 19px;
+        }
+        #yes{
+            padding-top: 3px;
+        }
+        .main3{
+             justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+        .main4{
+           padding-top: 70px;
+        }
+        input{
+            padding-bottom: 14px;
+            padding-top: 14px;
+            margin-left: 23px;
+            padding-left: 13px;
+            padding-right: 225px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            border: none;
+            border-style: none;
+            outline: none;
+            color: rgb(77, 110, 46);
+            background-color: rgba(220, 226, 216);
+        }
+        button{
+             padding-bottom: 14px;
+            padding-top: 14px;
+            margin-left: 25px;
+            margin-top: 30px;
+           padding-left: 175px;
+            padding-right: 165px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            border: none;
+            outline: none;
+            border-radius: 30px;
+            /* font-weight: bold; */
+            background-color: rgba(107, 138, 106);
+            color: white;
+        }
+        button:hover{
+            background-color: white;
+            color: rgb(77, 110, 46);;
+            outline: 1px solid rgb(77, 110, 46);
+            
+        }
+        .main4 p{
+            padding-top: 30px;
+            padding-left: 47px;
+            font-family:Arial, Helvetica, sans-serif ;
+            color:rgb(77, 110, 46);
+            
+        }
+        .logos{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 35px;
+            gap: 57PX;
+            padding-left: 25px;
+        }
+        .logos img{
+            height: 35px;
+            width: 35px;
+
+        }
+        .text2{
+            padding-top: 70px;
+            text-align: center;
+            font-family:Arial, Helvetica, sans-serif ;
+            color:rgba(115, 116, 111);
+            font-size: 18px;
+            padding-left: 7px;
+            /* padding-bottom: 50px; */
+            
+        }
+        .text2 a{
+             color:#383934;
+             font-weight:540;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="main2">
+                <div class="main3">
+                    <div class="git">
+                        <img src="image/GITHUB.png" alt="">
+                    </div>
+                    <div class="text">
+                        <p>Your journey starts here</p>
+                        <p id="yes">Take the first step</p>
+                    </div>
+                </div>
+                <div class="main4">
+                    <form action="">
+                        <div>
+                            <input type="email" placeholder="E-mail" required>
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Username" required>
+                        </div>
+                        <div>
+                            <input type="password" placeholder="Password" required maxlength="7">
+                        </div>
+                        <div>
+                            <input type="password" placeholder="Confirm password" required maxlength="7">
+                        </div>
+                        <button>Sign up</button>
+                    </form>
+                    <p>____________________ or __________________</p>
+
+                </div>
+                <div class="logos">
+                    <img src="image/facebook.png" alt="">
+                    <img src="image/Apple-Logo-Iconic-Tech-Brand-Symbol-PNG-Transparent-Representation-of-Innovation-and-Design-jpg.webp" alt="">
+                    <img src="image/google-black-icon.png" alt="">
+                </div>
+                <div class="text2">
+                    <p>Already have an account? <a href="#">Sign in</a></p>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
